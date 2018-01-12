@@ -10,7 +10,7 @@ import com.neusoft.service.IUserService;
 @Controller
 public class TestController {
 	@Autowired
-	private IUserService iUserService;
+	private IUser1Service iUserService;
 	@RequestMapping("/")
 	public ModelAndView getUserId(){
 		ModelAndView modelAndView = new ModelAndView();
